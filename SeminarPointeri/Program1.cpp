@@ -10,7 +10,7 @@ int main(){
 
     b=&a;
 
-    cout<<"Pinterul b stocheaza adresa variabilei a: b= ";
+    cout<<"Pointerul b stocheaza adresa variabilei a: b= ";
     cout<<b<<endl;
     cout<<"b reprezinta continutul adresei de memorie: *b= ";
     cout<<*b<<endl;
