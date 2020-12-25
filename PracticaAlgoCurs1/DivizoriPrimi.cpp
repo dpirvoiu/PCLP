@@ -8,6 +8,7 @@ using namespace std;
 int numar, putere;
 
 int main(){
+    cout <<"Introduceti numarul: ";
     cin >> numar;
     int divizor=2;
     while(numar > 1)
