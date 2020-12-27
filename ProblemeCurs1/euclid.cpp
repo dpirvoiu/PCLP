@@ -9,10 +9,11 @@ using namespace std;
 int a,b,r;
 int main(){
 
-cout << "Introduceti numarul cel mare: "; 
+cout << "Introduceti primul numar: "; 
 cin >> a;
-cout << "\n" << "Introduceti numarul cel mic: ";
+cout << "\n" << "Introduceti al doilea numar: ";
 cin >> b;
+
 
 while (b!=0){
     r= a%b;
