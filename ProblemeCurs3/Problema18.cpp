@@ -18,7 +18,7 @@ int main(){
         a=b;
         b=maximul;
 
-    }if(b>c){ 
+    }   if(b>c){ 
         maximul=b;
         b=c;
         c=maximul;

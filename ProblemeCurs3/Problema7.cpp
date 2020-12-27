@@ -12,7 +12,7 @@ int main(){
         cout<<"A: ";cin>>a;
         s+=a;
         p*=a;
-        if(p==0){   //cizmarie pe genunchi! Revino la randul asta
+        if(p==0){   // Cizmarie pe genunchi! Revino la randul asta
             p=1;
         }
         
