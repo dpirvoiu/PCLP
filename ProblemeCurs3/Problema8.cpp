@@ -6,16 +6,18 @@ număr natural pozitiv, introdus de la tastatură.
 #include<math.h>
 using namespace std;
 
-double n, result;
+double n, a, b, c;
 
 int main(){
     cout<< "Introduceti numarul: ";
     cin >> n;
 
-    if (1/(n+1)<log((n+1)/n)<1/n){
-        cout<<"OK";
-    }else if(1/(n+!)<log((n+1)/n)<1/n){
+    a=1/(n+1);
+    b=log((n+1)/n);
+    c=1/n;
 
-    }
-
+    if (a<b && b<c) {
+        cout<<"Ok"<<endl;
+    }else cout << "Not ok"<<endl;
+    return 0;
 }

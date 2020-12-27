@@ -24,6 +24,6 @@ int main(){
         aria=sqrt(s*(s-a)*(s-b)*(s-c));
         cout << aria<<endl;
     }
-
+    return 0;
 
 }

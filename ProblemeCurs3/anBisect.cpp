@@ -15,4 +15,6 @@ int main(){
     if(n%4==0 && n%100!=0 && n%400!=0)
     cout << "An bisect!"<< endl;
     else cout << "Anul nu este bisect!"<< endl;
+
+    return 0;
 }

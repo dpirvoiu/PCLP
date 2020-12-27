@@ -19,5 +19,5 @@ while (b!=0){
     a=b;
     b=r;
 }
-cout<< a;
+cout<< a<<endl;
 }

@@ -22,5 +22,5 @@ int main (){
         maximul=c;
         cout<<"Maximul este c: "<<maximul<<endl;
     }
-    
+    return 0;
 }

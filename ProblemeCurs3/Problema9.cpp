@@ -19,4 +19,5 @@ int main(){
         f=0.9*log(x+3);
         cout<<"f(x) este log: "<< f<<endl;
     }
+    return 0;
 }

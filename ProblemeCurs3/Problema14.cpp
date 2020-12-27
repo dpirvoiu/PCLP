@@ -21,4 +21,5 @@ int main(){
     }else if(a==0 || a==1){
         cout<<"Valori mici"<<endl;
     }else cout << "Caz ignorat"<<endl;
+    return 0;
 }

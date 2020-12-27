@@ -28,4 +28,5 @@ int main (){
         b=aux;   
      }
      cout<<a<<" "<<b<< " "<<c<<endl;
+     return 0;
 }

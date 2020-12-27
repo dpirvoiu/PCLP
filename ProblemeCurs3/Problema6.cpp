@@ -20,4 +20,6 @@ int main(){
     if(v==(x+y)*(x+y))
     cout << "Success"<<endl;
     else cout << "Fail"<<endl; 
+    
+    return 0;
 }           
