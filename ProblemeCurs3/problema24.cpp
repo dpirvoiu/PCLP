@@ -16,10 +16,10 @@ int main(){
         do{
             if(i%j==0)
                 s+=j;
-            j++;
+            j++; // loop interior ce vede variabila externa i, din loopul exterior.
         }while(j<=i/2);
         if (s==i)
             cout<<i<<" "<<endl;
-        i++;
+        i++;  // Loopul extern ce afecteaza variabila interna j.
     }while(i<=numar_limita);
 }
