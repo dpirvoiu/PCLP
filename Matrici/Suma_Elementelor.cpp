@@ -1,4 +1,4 @@
-// Suma elementelor unei Matrici
+// Adunarea a doua matrici
 
 #include<iostream>
 using namespace std;

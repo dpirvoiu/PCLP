@@ -1,3 +1,5 @@
+/*matrice diagonala secundara*/
+
 #include <iostream>
 using namespace std;
 
@@ -13,10 +15,9 @@ cin >> b;
 
     for(int i=0; i<a; i++)
     for(int j=0; j<b;j++)
-cin >> Test[i][j];
+    cin >> Test[i][j];
 
-    for (int i=0; i<a;i++)
-{
+    for (int i=0; i<a;i++){
     for(int j=0;j<b;j++)
     cout << Test[i][j] << "\t";
     cout << "\n";
@@ -24,13 +25,9 @@ cin >> Test[i][j];
 
     cout << "\n\n"; 
 
-    for (int i=0; i<a;i++)
-
-{
+    for (int i=0; i<a;i++){
     for(int j=0;j<b;j++)
-
     if(i+j==b-1) 
- 
     cout << Test[i][j]<< "\t";
     
 }

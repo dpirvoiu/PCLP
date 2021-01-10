@@ -1,3 +1,5 @@
+/*Minumul si maximul unei matrici*/
+
 #include<iostream>
 using namespace std;
 

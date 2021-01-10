@@ -8,6 +8,7 @@ using namespace std;
 
 int main(){
     int a,b,c, maximul;
+    
     do{
     cout <<"A: "; cin >>a;
     cout <<"B: "; cin >>b;

@@ -1,3 +1,5 @@
+/*Marimea pe biti a tipurilor de variabile*/
+
 #include<iostream>
 using namespace std;
 

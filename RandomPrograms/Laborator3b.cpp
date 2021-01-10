@@ -1,3 +1,5 @@
+/*Operatii cu variabile*/
+
 #include<iostream>
 using namespace std;
 

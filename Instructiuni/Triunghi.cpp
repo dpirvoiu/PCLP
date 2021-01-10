@@ -1,3 +1,5 @@
+/*Aria si petrimetrul triunghiului*/
+
 #include<iostream>
 #include<math.h>
 

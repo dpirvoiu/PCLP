@@ -1,3 +1,7 @@
+/*
+Se da o variabila a de tip short respectiv o variabila de tip int. Sa se declare pointerii aferenti si sa se realizeze operatii de incrementare/decrementare asupra pointerilor 
+*/
+
 #include<iostream>
 using namespace std;
 
