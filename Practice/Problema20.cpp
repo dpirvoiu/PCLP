@@ -1,21 +1,20 @@
-/*
-Se citesc câte 2 numere întregi, până la întâlnirea perechii de numere 9, 9. Pentru fiecare
-pereche de numere citite, să se afişeze cel mai mare divizor comun al acestora.
-*/
-
 #include <iostream>
 using namespace std;
 
+int intreg_la_cub(int);
+float real_la_cub(float);
+
 int main(){
-    int a,b,r;
-    cout<<"Introduceti a: ";cin>>a;
-    cout<<"Introduceti b: ";cin>>b;
-    while(b){
-    r=a%b;
-    a=b;
-    b=r;
-    
-    }   
-    cout<<a<<endl;
+    cout<<"Intreg la cub este: "<<intreg_la_cub(3)<<endl;
+    cout<<"Real la cub este: "<<real_la_cub(3.3)<<endl;
+
 
 }
+
+int intreg_la_cub(int a){
+    return(a*a*a);
+}
+float real_la_cub(float a){
+    return(a*a*a);
+}
+
