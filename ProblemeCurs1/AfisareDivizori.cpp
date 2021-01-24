@@ -8,7 +8,7 @@ using namespace std;
 int a,i;
 
 int main(){
-cout<<"Introduceti numarul:"; 
+cout<<"Introduceti numarul: "; 
 cin>>a;
 
 for (i=1;i<=a;i++){
