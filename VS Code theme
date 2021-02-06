@@ -1,0 +1,61 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "code-runner.runInTerminal": true,
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "explorer.confirmDelete": false,
+    "workbench.colorCustomizations": {
+        "tab.activeBorder":"#0000",
+        "editorLineNumber.foreground": "#616161",
+        "editorLineNumber.activeForeground": "#616161",
+        "editorRuler.foreground":"#000000",
+        "editor.background": "#002B36",
+        "scrollbar.shadow": "#ffffff00",
+        "widget.shadow": "#ffffff00",
+        "tab.activeForeground": "#c9c99b",
+        "statusBar.background" : "#303030",
+        "statusBar.noFolderBackground" : "#222225",
+        "statusBar.debuggingBackground": "#511f1f"
+    },
+    "editor.tokenColorCustomizations": {
+        "variables": "#c9c99b",
+        "types":"#c9c99b",
+        "keywords": "#c9c99b",
+        "functions": "#8b763b",
+        "strings": "#25969e",
+        "comments": "#25969e",
+        "numbers": "#8b763b",
+        "textMateRules": [
+            {
+                "scope":"comment",
+                "settings": {
+                    
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope":"keyword.other.unit",
+                "settings": {
+                    "foreground": "#8b763b",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope":"constant",
+                "settings": {
+                    "foreground": "#8b763b",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope":"constant.character.escape",
+                "settings": {
+                    "foreground": "#25969e",
+                    "fontStyle": ""
+                }
+            }
+        ]
+
+    }
+}
